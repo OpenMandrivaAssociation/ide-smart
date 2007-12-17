@@ -11,7 +11,6 @@ Patch0: ide-smart-1.4-typofix.patch.bz2
 License: GPL
 Url: http://lightside.eresmas.com/
 Group: Monitoring
-Buildroot: %{_tmppath}/%{name}-buildroot
 
 %description
 The ide-smart program enable to monitor a SMART capable hard-disk.
