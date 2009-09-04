@@ -1,6 +1,6 @@
 %define name ide-smart
 %define version 1.4
-%define release  %mkrel 7
+%define release  %mkrel 8
 
 Summary: A system utility for monitoring a SMART capable hard-disk
 Name: %{name}
