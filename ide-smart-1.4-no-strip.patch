@@ -1,0 +1,10 @@
+diff -urN ide-smart-1.4/Makefile ide-smart-1.4-patched/Makefile
+--- ide-smart-1.4/Makefile	1999-08-05 08:55:01.000000000 +1100
++++ ide-smart-1.4-patched/Makefile	2014-03-06 15:43:29.686411056 +1100
+@@ -17,5 +17,5 @@
+ install:
+ 		install -d $(INSTALL_PREFIX)/sbin
+ 		install -d $(INSTALL_PREFIX)/man/man8
+-		install -s $(TARGET) $(INSTALL_PREFIX)/sbin
++		install $(TARGET) $(INSTALL_PREFIX)/sbin
+ 		install ide-smart.8 $(INSTALL_PREFIX)/man/man8
