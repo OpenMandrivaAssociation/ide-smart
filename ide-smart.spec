@@ -1,7 +1,7 @@
 Summary:	A system utility for monitoring a SMART capable hard-disk
 Name:		ide-smart
 Version:	1.4
-Release:	10
+Release:	11
 License:	GPLv2+
 Group:		Monitoring
 Url:		http://lightside.eresmas.com/
