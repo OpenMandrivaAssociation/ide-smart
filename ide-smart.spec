@@ -4,7 +4,7 @@ Version:	1.4
 Release:	11
 License:	GPLv2+
 Group:		Monitoring
-Url:		http://lightside.eresmas.com/
+Url:		https://lightside.eresmas.com/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		ide-smart-1.4-typofix.patch.bz2
 Patch1:		ide-smart-1.4-no-strip.patch
