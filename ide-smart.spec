@@ -9,6 +9,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Patch0:		ide-smart-1.4-typofix.patch.bz2
 Patch1:		ide-smart-1.4-no-strip.patch
 
+BuildRequires:	make
 %description
 The ide-smart program enable to monitor a SMART capable hard-disk.
 The SMART protocol define several items. When one of these items is under
